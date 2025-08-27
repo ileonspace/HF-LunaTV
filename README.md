@@ -86,11 +86,16 @@
 3. 返回你的 Vercel 项目，新增环境变量
 4. 要添加以下环境变量
    USERNAME=admin 站长账号
+   
    PASSWORD=admin 站长密码
+   
    NEXT_PUBLIC_STORAGE_TYPE=upstash
+   
    UPSTASH_URL=复制 endpoint 的 HTTPS
+   
    UPSTASH_TOKEN=复制token
-5. 重试部署
+   
+6. 重试部署
 
 
 ### Kvrocks 存储（推荐）
