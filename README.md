@@ -83,8 +83,13 @@
 0. 完成普通部署并成功访问。
 1. 在 [upstash](https://upstash.com/) 注册账号并新建一个 Redis 实例，名称任意。
 2. 复制新数据库的 **HTTPS ENDPOINT 和 TOKEN**
-3. 返回你的 Vercel 项目，新增环境变量 **UPSTASH_URL 和 UPSTASH_TOKEN**，值为第二步复制的 endpoint 和 token
-4. 设置环境变量 NEXT_PUBLIC_STORAGE_TYPE，值为 **upstash**；设置 USERNAME 和 PASSWORD 作为站长账号
+3. 返回你的 Vercel 项目，新增环境变量
+4. 要添加以下环境变量
+   USERNAME=admin 站长账号
+   PASSWORD=admin 站长密码
+   NEXT_PUBLIC_STORAGE_TYPE=upstash
+   UPSTASH_URL=复制 endpoint 的 HTTPS
+   UPSTASH_TOKEN=复制token
 5. 重试部署
 
 
