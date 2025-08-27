@@ -85,6 +85,7 @@
 2. 复制新数据库的 **HTTPS ENDPOINT 和 TOKEN**
 3. 返回你的 Vercel 项目，新增环境变量
 4. 要添加以下环境变量
+ 
    USERNAME=admin 站长账号
    
    PASSWORD=admin 站长密码
